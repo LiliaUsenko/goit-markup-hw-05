@@ -90,7 +90,6 @@ img {
 /*Header*/
 
 .header {
- 
   left: 0;
   top: 0;
   width: 100%;
@@ -635,12 +634,11 @@ img {
 
   background-color: var(--color-iris);
 
-
   transform: translateY(100%);
   transition: transform var(--duration) var(--timing-function);
 }
 
-.gallary-item:hover .overlay{
+.gallary-item:hover .overlay {
   transform: translateY(0%);
 }
 
@@ -691,7 +689,7 @@ img {
   transition-delay: 250ms;
 }
 
-.backdrop:hover{
+.backdrop:hover {
   scale: 1.5;
 }
 
@@ -701,7 +699,7 @@ img {
   min-height: 584px;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 
   background-color: var(--color-dairy);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -716,12 +714,12 @@ img {
   right: 24px;
   background-color: var(--color-cornflower);
   border-radius: 50%;
-  width:24px;
-  height:24px;
+  width: 24px;
+  height: 24px;
 }
 
 .modal-icon {
-fill: var(--color-navy-blue);
+  fill: var(--color-navy-blue);
 }
 
 .backdrop.is-hidden {
